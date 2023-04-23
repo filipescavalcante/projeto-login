@@ -31,6 +31,7 @@ body {
 main {
     display: block;
     margin: auto;
+    height: 550px;
     width: 250px;
     background-color: white;
     border: 2px solid white;
@@ -45,8 +46,8 @@ main {
     width: 250px;
     box-sizing: border-box;
     background-color: #08233E;
-    background-image: url("../images/fundo.jpg");
-    background-position: left center;
+    background-image: url(../images/fundo.jpg);
+    background-position: top center;
     background-size: cover;
 }
 
