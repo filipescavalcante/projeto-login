@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap');
+
+* {
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #08233E;
+    --cor2: #16557E;
+    --cor3: #643F5E;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: var(--cor2);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: block;
+    margin: auto;
+    width: 250px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.426);
+}
+
+.img {
+    display: block;
+    height: 200px;
+    width: 250px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-sizing: border-box;
+    background-image: url("../images/fundo.jpg");
+    background-position: left center;
+    background-size: cover;
+}
+
+.cont {
+    display: block;
+}
+
+.cont h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.cont > p {
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    font-size: 1.1em;
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 1.2em;
+}
+
+.enviar {
+    font-size: 1.5em;
+    padding: 5px;
+    margin-top: 7px;
+    background-color: #643F5E;
+    color: white;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #2E3853;
+    text-decoration: underline;
+}
+
+.cadastro {
+    text-align: center;
+    font-size: 1.2em;
+}
