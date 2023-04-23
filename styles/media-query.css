@@ -39,7 +39,7 @@ Grandes telas: acima de 1200px
     }
 
     main {
-        width: 90vw;
+        width: 70vw;
         height: 430px;
     }
 
@@ -53,6 +53,34 @@ Grandes telas: acima de 1200px
     .cont {
         float: right;
         width: 60%;
+    }
+
+    form {
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(135deg, var(--cor1), var(--cor2), var(--cor3) 90%);
+    }
+
+    main {
+        width: 70vw;
+        height: 430px;
+        max-width: 1600px;
+    }
+
+    .img {
+        background-position: right left;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    .cont {
+        float: left;
+        width: 50%;
     }
 
     form {
