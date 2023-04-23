@@ -36,16 +36,15 @@ main {
     border: 2px solid white;
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.426);
+    overflow: hidden;
 }
 
 .img {
     display: block;
     height: 200px;
     width: 250px;
-    border: none;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
     box-sizing: border-box;
+    background-color: #08233E;
     background-image: url("../images/fundo.jpg");
     background-position: left center;
     background-size: cover;
@@ -75,6 +74,7 @@ form {
 input {
     padding: 5px;
     margin-bottom: 7px;
+    border: 2px solid rgba(0, 0, 0, 0.558);
     border-radius: 7px;
     font-size: 1.1em;
 }
@@ -91,6 +91,7 @@ label {
     padding: 5px;
     margin-top: 7px;
     background-color: #643F5E;
+    border: none;
     color: white;
     cursor: pointer;
 }
